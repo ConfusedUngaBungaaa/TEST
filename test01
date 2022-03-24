@@ -1,0 +1,16 @@
+a = int(input("How much money you have? $$$: "))
+c = int(input("How old are ya? "))
+if a> 30:
+  print ("You can enter :-) ")
+
+else: 
+  print ("Low on money.. ")
+
+b = input("What you want to drink? ")
+if b == "beer":
+  if a >= 30: 
+    print ("Sorry, we dont have this now, come later :) ")
+  if a < 30:
+    print ("YOU DONT HAVE MONEY FOR THAT. LEAVE OR I WILL BEAT YOU. ")
+else:
+    print ("ORDER BEER OR GET THE FUCK OUT. ")
